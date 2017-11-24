@@ -8,9 +8,9 @@
 
 繼續介紹，這次的重點會放在 Nginx 的 **Load Balance** 上 :blush:
 
-* [Youtube Tutorial PART 1 - 正向代理器  VS 反向代理器 - 簡介](xxx)
-* [Youtube Tutorial PART 2 - Docker + Django + Nginx + Load Balance - 概念](xxx)
-* [Youtube Tutorial PART 3 - Docker + Django + Nginx + Load Balance - 實戰](xxx)
+* [Youtube Tutorial PART 1 - 正向代理器  VS 反向代理器 - 簡介](https://youtu.be/R2I8BBXnJJ8)
+* [Youtube Tutorial PART 2 - Docker + Django + Nginx + Load Balance - 概念](https://youtu.be/W4EMOO-THGs)
+* [Youtube Tutorial PART 3 - Docker + Django + Nginx + Load Balance - 實戰](https://youtu.be/ChK8MtQUDf0)
 
 ## 簡介
 
@@ -88,9 +88,9 @@ Response 回傳給阿鬼，這樣阿鬼就能順利得到 FB 的資料，這就�
 
 解釋了那麼多，我們要開始實戰 Nginx 的 Load Balance，範例一樣是使用 [上一篇](https://github.com/twtrubiks/docker-django-nginx-uswgi-postgres-tutorial) 做修改，
 
-因為要做 Load Balance，所以增加一台主機（ service ），名稱命名為 [api2](xx)，基本上內容
+因為要做 Load Balance，所以增加一台主機（ service ），名稱命名為 [api2](https://github.com/twtrubiks/docker-django-nginx-uwsgi-postgres-load-balance-tutorial/tree/master/api2)，基本上內容
 
-都和 [api](xx) 差不多，只是修改了一些名稱（ 方便區別而已 ），可參考 [docker-compose.yml](xx)。
+都和 [api](https://github.com/twtrubiks/docker-django-nginx-uwsgi-postgres-load-balance-tutorial/tree/master/api) 差不多，只是修改了一些名稱（ 方便區別而已 ），可參考 [docker-compose.yml](https://github.com/twtrubiks/docker-django-nginx-uwsgi-postgres-load-balance-tutorial/blob/master/docker-compose.yml)。
 
 整體的 Load Balance 的概念可以參考下圖
 
@@ -102,7 +102,7 @@ Response 回傳給阿鬼，這樣阿鬼就能順利得到 FB 的資料，這就�
 
 因為其他的 Server 還是正常工作:relaxed:
 
-再來就是我們的主角 [my_nginx.conf](xx)，其實主要也是修改這邊的設定而已 :laughing:
+再來就是我們的主角 [my_nginx.conf](https://github.com/twtrubiks/docker-django-nginx-uwsgi-postgres-load-balance-tutorial/blob/master/nginx/my_nginx.conf)，其實主要也是修改這邊的設定而已 :laughing:
 
 ```config
 # the upstream component nginx needs to connect to
@@ -301,7 +301,6 @@ Load banlance 還來的好。
 如果有在玩像是 AWS 的人，可以知道還有一種東西更狂，就是 異地同步備份，大家有興趣自行研究:sunglasses:
 
 如果有任何講錯的地方，請麻煩大家和我說，我會再修改，感謝各位的閱讀:v:
-
 
 ## 執行環境
 
