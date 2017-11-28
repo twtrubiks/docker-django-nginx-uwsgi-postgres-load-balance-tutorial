@@ -6,13 +6,13 @@
 
 這邊要感謝 [cropse](https://github.com/cropse) 的 PR :+1:，可參考 [issues-1](https://github.com/twtrubiks/docker-django-nginx-uwsgi-postgres-load-balance-tutorial/issues/1) 以及 [pull-2](https://github.com/twtrubiks/docker-django-nginx-uwsgi-postgres-load-balance-tutorial/pull/2)
 
-* [Youtube Tutorial PART 4 - Django + Nginx + Load Balance - Docker scale](xx)
+* [Youtube Tutorial PART 4 - Django + Nginx + Load Balance - Docker scale](https://youtu.be/w83_lV5tORI)
 
 ## 教學
 
 請先將根目錄資料夾改名，在這裡我改名為 `demo` ( 後面會說明原因 )，
 
-要修改三個地方，分別是 [uwsgi.ini](xxx) , [my_nginx.conf](xxx) , [docker-compose.yml](xx)
+要修改三個地方，分別是 [uwsgi.ini](https://github.com/twtrubiks/docker-django-nginx-uwsgi-postgres-load-balance-tutorial/blob/better/api/uwsgi.ini) , [my_nginx.conf](https://github.com/twtrubiks/docker-django-nginx-uwsgi-postgres-load-balance-tutorial/blob/better/nginx/my_nginx.conf) , [docker-compose.yml](https://github.com/twtrubiks/docker-django-nginx-uwsgi-postgres-load-balance-tutorial/blob/better/docker-compose.yml)
 
 ***uwsgi.ini***
 
