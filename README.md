@@ -11,6 +11,7 @@
 * [Youtube Tutorial PART 1 - 正向代理器  VS 反向代理器 - 簡介](https://youtu.be/R2I8BBXnJJ8)
 * [Youtube Tutorial PART 2 - Docker + Django + Nginx + Load Balance - 概念](https://youtu.be/W4EMOO-THGs)
 * [Youtube Tutorial PART 3 - Docker + Django + Nginx + Load Balance - 實戰](https://youtu.be/ChK8MtQUDf0)
+* [Youtube Tutorial PART 4 - Django + Nginx + Load Balance - Docker scale](https://youtu.be/w83_lV5tORI)
 
 ## 簡介
 
@@ -301,6 +302,8 @@ Load banlance 還來的好。
 如果有在玩像是 AWS 的人，可以知道還有一種東西更狂，就是 異地同步備份，大家有興趣自行研究:sunglasses:
 
 如果有任何講錯的地方，請麻煩大家和我說，我會再修改，感謝各位的閱讀:v:
+
+下一步可以試試看用 Docker scale 的方法來完成( 更好的寫法 )，可參考 [better](https://github.com/twtrubiks/docker-django-nginx-uwsgi-postgres-load-balance-tutorial/tree/better) 分支。
 
 ## 執行環境
 
