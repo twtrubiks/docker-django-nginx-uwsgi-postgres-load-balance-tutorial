@@ -206,6 +206,10 @@ docker stop [OPTIONS] CONTAINER [CONTAINER...]
 
 範例是總共有兩台 server ( `api` 以及 `api2` )， 你也可以自己多新增幾台來玩玩看。
 
+如果意猶未盡，延伸閱讀 :satisfied:
+
+* [Docker Swarm 基本教學 - 從無到有 Docker-Swarm-Beginners-Guide📝](https://github.com/twtrubiks/docker-swarm-tutorial)
+
 ## 執行環境
 
 * Mac
