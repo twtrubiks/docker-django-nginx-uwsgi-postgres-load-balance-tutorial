@@ -291,7 +291,7 @@ docker stop [OPTIONS] CONTAINER [CONTAINER...]
 
 Load banlance 還來的好。
 
-這邊就不再介紹 HAProxy，大家有興趣可以自行研究:sunglasses:
+如果對 HAProxy 有興趣，可參考 [Docker Swarm + HAProxy](https://github.com/twtrubiks/docker-swarm-tutorial#docker-swarm--haproxy) :sunglasses:
 
 ## 後記：
 
@@ -304,6 +304,10 @@ Load banlance 還來的好。
 如果有任何講錯的地方，請麻煩大家和我說，我會再修改，感謝各位的閱讀:v:
 
 下一步可以試試看用 Docker scale 的方法來完成( 更好的寫法 )，可參考 [better](https://github.com/twtrubiks/docker-django-nginx-uwsgi-postgres-load-balance-tutorial/tree/better) 分支。
+
+如果意猶未盡，延伸閱讀 :satisfied:
+
+* [Docker Swarm 基本教學 - 從無到有 Docker-Swarm-Beginners-Guide📝](https://github.com/twtrubiks/docker-swarm-tutorial)
 
 ## 執行環境
 
